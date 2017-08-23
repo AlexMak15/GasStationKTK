@@ -1,0 +1,55 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1300px) {
+  .contact{
+    margin-right: 40px;
+  }
+}
+@media only screen and (max-width : 1200px) {
+  .contact{
+    margin-right: 40px;
+  }
+  .contact-phone-number{
+    font-size: 16px;
+  }
+  .cont-top{
+    text-align: center;
+  }
+  .contact{
+    text-align: center;
+  }
+  .section-advantages-banner{
+    right: -190px;
+  }
+
+  .calculate-display{
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .section-news{
+    text-align: center;
+  }
+  .section-news-block-new{
+    padding: 10px 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .calculate-display{
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .nav>li{
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}

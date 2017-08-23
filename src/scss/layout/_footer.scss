@@ -1,0 +1,57 @@
+.cont-soc-icon{
+  text-align: center;
+}
+.footer-soc-icon{
+  display: inline-block;
+}
+#soc-icon{
+  fill: #cccccc;
+  transition: fill 0.5s;
+
+}
+#facebk{
+  fill: #cccccc;
+  transition: fill 0.5s;
+  &:hover{
+    fill: #3849b9;
+  }
+}
+#vk{
+  fill: #cccccc;
+  transition: fill 0.5s;
+  &:hover{
+    fill: #6973b7;
+  }
+}
+#insgr{
+  fill: #cccccc;
+  transition: fill 0.5s;
+  &:hover{
+    fill: #bf3333;
+  }
+}
+#odnokl{
+  fill: #cccccc;
+  transition: fill 0.5s;
+  &:hover{
+    fill: #ff850e;
+  }
+}
+.glanec{
+  font-family: 'Cuprum-Regular', Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #b5b8bb;
+  text-transform: uppercase;
+  position: relative;
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    background-image: url(../img/icon/icon-glanec.png);
+  }
+}

@@ -1,0 +1,79 @@
+.section-discount-card-advantages{
+  padding-top: 50px;
+  padding-bottom: 35px;
+  background-image: url(../img/bg-discount-cart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 2px;
+}
+.discount-card-advantages{
+  text-align: center;
+}
+.discount-card-advantages-title{
+  font-family: 'Roboto-Bold', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3134;
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+.discount-card-advantages-text{
+  font-size: 14px;
+  line-height: 1.43;
+  margin-bottom: 40px;
+}
+.discount-card-advantages-icon-1,.discount-card-advantages-icon-2,
+.discount-card-advantages-icon-3{
+  font-size: 14px;
+  line-height: 1.43;
+  position: relative;
+  padding-top: 70px;
+  text-align: center;
+}
+.discount-card-advantages-icon-1{
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background-position: -297px -180px;
+  }
+}
+.discount-card-advantages-icon-2{
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background-position: -5px -5px;
+  }
+}
+.discount-card-advantages-icon-3{
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background-position: -219px -67px;
+  }
+}

@@ -1,0 +1,204 @@
+.cont-top{
+  padding-top: 25px;
+}
+.logo{
+  margin-top: 10px;
+}
+.slogan{
+  font-family: 'Roboto-Bold', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.map-link{
+  font-family: 'Roboto-Regular', Arial, sans-serif;
+  font-size: 14px;
+  color: $color-text-1;
+  text-decoration: underline;
+  position: relative;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: inline-block;
+  &:before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 23px;
+    width: 18px;
+    height: 27px;
+    background-image: url(../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: -5px -98px;
+  }
+}
+.main-menu{
+  font-family: 'Roboto-Regular', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 2.14;
+  ul{
+    list-style: none;
+    a{
+      color: $color-text-2;
+    }
+  }
+}
+.text-upgrate{
+  font-family: 'Roboto-BoldItalic', Arial, sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  color: $color-text-1;
+}
+.own-cabinet{
+  position: relative;
+    &:before{
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: -1px;
+    background-image: url(../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 16px;
+    height: 18px;
+    background-position: -219px -5px;
+  }
+}
+.contact{
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: right;
+}
+.contact-phone-number{
+  font-family: 'Roboto-Bold', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  a{
+    text-decoration: none;
+    color: $color-text-2;
+  }
+}
+.contact-email{
+  a{
+    text-decoration: underline;
+  }
+}
+.block-gas-station{
+  min-height: 570px;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+}
+.block-gas-station-title{
+  font-size: 36px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #000000;
+}
+.block-gas-station-text{
+  line-height: 1.38;
+  text-align: right;
+}
+//Block gas station
+.scoreboard{
+  width: 388px;
+  height: 545px;
+  background-image: url("../img/scoreboard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Roboto-Medium', Arial, sans-serif;
+  font-size: 34px;
+  color: #fd0000;
+}
+.scoreboard-time{
+  position: absolute;
+  top: 17px;
+  left: 131px;
+}
+.inline-blk{
+  display: inline-block;
+}
+.price-gas{
+  padding-left: 20px;
+}
+.premium-95{
+  position: relative;
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon/icon-up.png);
+    position: absolute;
+    top: 10px;
+    left: -21px;
+  }
+}
+.cont-price-gas-regulyar{
+  position: relative;
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon/icon-up.png);
+    position: absolute;
+    top: 10px;
+    left: -21px;
+  }
+}
+.cont-price-gas-up-dt{
+  position: relative;
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon/icon-up.png);
+    position: absolute;
+    top: 10px;
+    left: -23px;
+  }
+}
+.kind-gas{
+  width: 50px;
+  text-align: center;
+  position: relative;
+  span{
+    font-family: 'Roboto-Black', Arial, sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}
+.cont-price-gas-98{
+  position: absolute;
+  top: 133px;
+  left: 112px;
+}
+.cont-price-gas-premium{
+  position: absolute;
+  top: 188px;
+  left: 112px;
+}
+.cont-price-gas-regulyar{
+  position: absolute;
+  top: 241px;
+  left: 112px;
+}
+.cont-price-gas-dt{
+  position: absolute;
+  top: 295px;
+  left: 112px;
+}
+.cont-price-gas-up-dt{
+  position: absolute;
+  top: 349px;
+  left: 112px;
+}
